@@ -13,7 +13,10 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1400px",
       },
     },
     extend: {
@@ -80,6 +83,8 @@ module.exports = {
         hero_shape_dark: "url(/hero/shape-1-dark.svg)",
         hero_shape2_light: "url(/hero/shape-2-light.svg)",
         hero_shape2_dark: "url(/hero/shape-2-dark.svg)",
+        dots_light: "url(/about/dots-light.svg)",
+        dots_dark: "url(/about/dots-dark.svg)",
       },
     },
   },

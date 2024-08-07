@@ -55,12 +55,13 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary dark:text-white tracking-[4px]">
               Fullstack Developer
             </div>
-            <h1 className="h1 mb-4">Hi, I'm Arisqi Setyawan</h1>
+            <h1 className="hidden md:flex h1 mb-4">Hi, I'm Arisqi Setyawan</h1>
+            <h2 className="flex md:hidden h2 mb-4 mx-auto">
+              Hi, I'm Arisqi Setyawan
+            </h2>
             <p className="subtitle max-w[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do
               eiusmod tempor incididunt ut labore dan dolore magna aliqua.
-              Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa
-              dilakukan oleh orang lain sebagai konsekuensinya.
             </p>
             {/*button*/}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
