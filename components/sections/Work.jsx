@@ -3,6 +3,9 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
+// import swiper react components
+import { Swiper, SwiperSlide } from "swiper/react";
+
 // import swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -20,7 +23,7 @@ const projectData = [
     category: "react js",
     name: "Nexa Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus consequuntur iure maiores voluptatibus cupiditate! Id beatae laboriosam, hic quidem obcaecati quibusdam amet nobis expedita non.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
     link: "/",
     github: "/",
   },
@@ -29,7 +32,7 @@ const projectData = [
     category: "react js",
     name: "Nexa Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus consequuntur iure maiores voluptatibus cupiditate! Id beatae laboriosam, hic quidem obcaecati quibusdam amet nobis expedita non.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
     link: "/",
     github: "/",
   },
@@ -38,7 +41,7 @@ const projectData = [
     category: "react js",
     name: "Nexa Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus consequuntur iure maiores voluptatibus cupiditate! Id beatae laboriosam, hic quidem obcaecati quibusdam amet nobis expedita non.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
     link: "/",
     github: "/",
   },
@@ -49,7 +52,7 @@ const Work = () => {
     <section className="relative mb-12 xl:mb-48">
       <div className="container mx-auto">
         {/* text */}
-        <div className="max-w-[400px] mx-auto xl:max-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+        <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-8">Latest Projects</h2>
           <p className="subtitle mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -59,7 +62,29 @@ const Work = () => {
           </Link>
         </div>
         {/** Sliders */}
-        <div>slider</div>
+        <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
+          <Swiper
+            className="h-[560px]"
+            slidesPerView={1}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+              },
+            }}
+            spaceBetween={30}
+            modules={[Pagination]}
+            pagination={{ clickable: true }}
+          >
+            {/* show only the first 4 projects for the slides */}
+            {projectData.slice(0, 4).map((project, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <ProjectCard project={project} />
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+        </div>
       </div>
     </section>
   );
