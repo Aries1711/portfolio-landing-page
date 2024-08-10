@@ -8,6 +8,9 @@ import Footer from "@/components/layouts/Footer";
 // theme providers
 import { ThemeProvider } from "@/components/themes/ThemeProvider";
 
+// utils function to detect daytime on client server
+import { detectIsDayTime } from "@/utils/detectDayOrNight";
+
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,10 +19,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const isDay = detectIsDayTime();
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={montserrat.className}>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme={isDay ? "light" : "dark"}
+        >
           <Header />
           {children}
           <Footer />
