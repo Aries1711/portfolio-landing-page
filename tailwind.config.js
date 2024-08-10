@@ -78,6 +78,8 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
+        logo: "url(/logo.svg)",
+        logo_dark: "url(/logo_dark.svg)",
         hero: "url(/hero/hero-bg.png)",
         hero_shape: "url(/hero/shape-1.svg)",
         hero_shape_dark: "url(/hero/shape-1-dark.svg)",
@@ -87,6 +89,8 @@ module.exports = {
         dots_dark: "url(/about/dots-dark.svg)",
         work_project_bg_light: "url(/work/project-bg-light.png)",
         work_project_bg_dark: "url(/work/project-bg-dark.png)",
+        contact_illustration_light: "url(/contact/illustration-light.svg)",
+        contact_illustration_dark: "url(/contact/illustration-dark.svg)",
       },
     },
   },

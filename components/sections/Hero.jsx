@@ -52,10 +52,17 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           {/*text*/}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <div className="text-sm uppercase font-semibold mb-4 text-primary dark:text-white tracking-[4px]">
-              Fullstack Developer
+            <div className="flex gap-x-2 text-sm uppercase font-semibold mb-4 text-primary dark:text-white tracking-[4px]">
+              Fullstack Developer{" "}
+              <img
+                src="https://raw.githubusercontent.com/aries1711/aries1711/main/laptop.gif"
+                width="30px"
+                className="rounded-full"
+              />
             </div>
-            <h1 className="hidden md:flex h1 mb-4">Hi, I'm Arisqi Setyawan</h1>
+            <h1 className="hidden md:flex h1 mb-4">
+              Hi , I'm Arisqi Setyawan{" "}
+            </h1>
             <h2 className="flex md:hidden h2 mb-4 mx-auto">
               Hi, I'm Arisqi Setyawan
             </h2>
