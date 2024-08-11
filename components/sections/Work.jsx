@@ -19,29 +19,47 @@ import ProjectCard from "../contents/ProjectCard";
 // data
 const projectData = [
   {
-    image: "/work/1.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/work-1.png",
+    category: "fullstack",
+    name: "KitaCare Saas",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
+      "Website for service assisting families in Indonesia, website build with wordpress, backend API using Laravel (For mobile apps), Server using Amazon Web Service.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/work-2.png",
+    category: "fullstack",
+    name: "Aksiberbagi Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
+      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap + vue.js, backend API using Lumen (For mobile apps), server using VPS Contabo.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/work-3.png",
+    category: "fullstack",
+    name: "Beramal Bersama Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, ipsam sed voluptates doloribus.",
+      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap + vue.js, backend API using Lumen (For mobile apps), server using VPS Contabo.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/work-4.png",
+    category: "fullstack",
+    name: "RSRD Korlantas Website",
+    description:
+      "Website for news, research, and development police government in indonesia, website build using Laravel + bootstrap, server using Private VPS.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/work-5.png",
+    category: "fullstack",
+    name: "Seedfund fintech Crowdfunding Website",
+    description:
+      "Website for crowdfunding investment on local business in indonesia. website build using Nuxt.js (Frontend), Laravel (API).",
     link: "/",
     github: "/",
   },
@@ -76,7 +94,7 @@ const Work = () => {
             pagination={{ clickable: true }}
           >
             {/* show only the first 4 projects for the slides */}
-            {projectData.slice(0, 4).map((project, index) => {
+            {projectData.slice(0, 5).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />

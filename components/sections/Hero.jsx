@@ -52,11 +52,11 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           {/*text*/}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <div className="flex gap-x-2 text-sm uppercase font-semibold mb-4 text-primary dark:text-white tracking-[4px]">
-              Fullstack Developer{" "}
+            <div className="flex gap-x-4 text-sm uppercase font-semibold mb-4 mx-auto md:mx-auto xl:mx-0 text-primary dark:text-white tracking-[4px]">
+              Fullstack Developer
               <img
-                src="https://raw.githubusercontent.com/aries1711/aries1711/main/laptop.gif"
-                width="30px"
+                src="https://raw.githubusercontent.com/aries1711/aries1711/main/laptop-coder.gif"
+                width="40px"
                 className="rounded-full"
               />
             </div>
