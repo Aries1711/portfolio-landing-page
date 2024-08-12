@@ -55,20 +55,23 @@ const Hero = () => {
             <div className="flex gap-x-4 text-sm uppercase font-semibold mb-4 mx-auto md:mx-auto xl:mx-0 text-primary dark:text-white tracking-[4px]">
               Fullstack Developer
               <img
-                src="https://raw.githubusercontent.com/aries1711/aries1711/main/laptop-coder.gif"
+                src="https://raw.githubusercontent.com/aries1711/aries1711/main/redesign.gif"
                 width="40px"
                 className="rounded-full"
               />
             </div>
-            <h1 className="hidden md:flex h1 mb-4">
-              Hi , I'm Arisqi Setyawan{" "}
-            </h1>
+            <h1 className="hidden md:flex h1 mb-4">Hi , I'm Arisqi Setyawan</h1>
             <h2 className="flex md:hidden h2 mb-4 mx-auto">
               Hi, I'm Arisqi Setyawan
             </h2>
             <p className="subtitle max-w[490px] mx-auto xl:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do
-              eiusmod tempor incididunt ut labore dan dolore magna aliqua.
+              {/* With 8 years of experience, I’m not just focused on delivering
+              solutions but on pioneering innovative approaches that drive
+              long-term success. I'm eager to contribute to exciting and
+              impactful projects. */}
+              Comprehensive Solutions for Modern Development: Expertly crafting
+              user interfaces, building robust back-end systems, and delivering
+              integrated fullstack solutions to drive your project’s success.
             </p>
             {/*button*/}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -115,7 +118,7 @@ const Hero = () => {
           </div>
         </div>
         {/*image*/}
-        <div className="hidden xl:flex  absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className="hidden xl:flex  absolute left-2/4 bottom-44 xl:bottom-4 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>

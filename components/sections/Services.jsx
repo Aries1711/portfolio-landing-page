@@ -12,25 +12,25 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Front-end Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adisaisd awoaa awdkadpcf llpva aiwjda edlit. dakppasl kasdja ?",
+      "Transforming design concepts into dynamic, user-friendly interfaces with cutting-edge technologies.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Back-end Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adisaisd awoaa awdkadpcf llpva aiwjda edlit. dakppasl kasdja ?",
+      "Building scalable and secure server-side solutions that power your application's core functionality.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "Fullstack Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adisaisd awoaa awdkadpcf llpva aiwjda edlit. dakppasl kasdja ?",
+      "Delivering end-to-end solutions with expertise in both client and server-side development for seamless integration.",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="mb-12 xl:mb-36">
+    <section className="mb-12 xl:mb-28">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
           My Services

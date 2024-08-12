@@ -6,12 +6,30 @@ import ProjectCard from "@/components/contents/ProjectCard";
 // data
 const projectData = [
   {
+    image: "/work/work-6.png",
+    category: "mobile apps",
+    name: "GGL : Smart Fitness & Nutrition",
+    description:
+      "Mobile apps rich feature, app hybrid using technology Flutter, available on Playstore and Appstore. Third party or technology use : Firebase, In-app Purchase, HealthKit, Sentry, and Etc.",
+    link: "https://ggl.life/",
+    github: "/",
+  },
+  {
     image: "/work/work-1.png",
     category: "fullstack",
     name: "KitaCare Saas",
     description:
       "Website for service assisting families in Indonesia, website build with wordpress, backend API using Laravel (For mobile apps), Server using Amazon Web Service.",
-    link: "/",
+    link: "https://kitacareindonesia.com/",
+    github: "/",
+  },
+  {
+    image: "/work/work-7.png",
+    category: "mobile apps",
+    name: "KitaCare : Families Assisting (Pregnancy and Parenting)",
+    description:
+      "Mobile apps rich feature, app hybrid using technology Flutter, available on Playstore and Appstore. Third party or technology use : Firebase, OpenAI, and Etc.",
+    link: "https://kitacareindonesia.com/",
     github: "/",
   },
   {
@@ -19,8 +37,17 @@ const projectData = [
     category: "fullstack",
     name: "Aksiberbagi Website",
     description:
-      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap, server using VPS Contabo.",
-    link: "/",
+      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap + vue.js, backend API using Lumen (For mobile apps), server using VPS Contabo.",
+    link: "https://aksiberbagi.com/",
+    github: "/",
+  },
+  {
+    image: "/work/work-8.png",
+    category: "mobile apps",
+    name: "Aksiberbagi : Charity & Donation",
+    description:
+      "Mobile apps rich feature for donation, app hybrid using technology Flutter, available on Playstore and Appstore. Third party or technology use : Firebase, Various Payment Gateway, and Etc.",
+    link: "https://aksiberbagi.com/",
     github: "/",
   },
   {
@@ -28,8 +55,8 @@ const projectData = [
     category: "fullstack",
     name: "Beramal Bersama Website",
     description:
-      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap, server using VPS Contabo.",
-    link: "/",
+      "Website for charity donation and sharing for caring, website build using Laravel + bootstrap + vue.js, backend API using Lumen (For mobile apps), server using VPS Contabo.",
+    link: "https://beramalbersama.com/",
     github: "/",
   },
   {
@@ -38,7 +65,7 @@ const projectData = [
     name: "RSRD Korlantas Website",
     description:
       "Website for news, research, and development police government in indonesia, website build using Laravel + bootstrap, server using Private VPS.",
-    link: "/",
+    link: "https://rsrd.korlantas-polri.id/",
     github: "/",
   },
   {
@@ -46,9 +73,18 @@ const projectData = [
     category: "fullstack",
     name: "Seedfund fintech Crowdfunding Website",
     description:
-      "Website for crowdfunding investment on local business in indonesia. website build using Nuxt.js (Frontend), Laravel (API) + bootstrap, server using Private VPS.",
-    link: "/",
+      "Website for crowdfunding investment on local business in indonesia. website build using Nuxt.js (Frontend), Laravel (API).",
+    link: "https://seedfund.id/id/about",
     github: "/",
+  },
+  {
+    image: "/work/work-9.png",
+    category: "open source",
+    name: "Customization Tinode SDK",
+    description:
+      "Customize Tinode SDK for Flutter to met product needs on GGL Company. Modification task is to fix bugs, add feature, and etc.",
+    link: "https://tinode.co/",
+    github: "https://github.com/Aries1711/tinode-chat-sdk",
   },
 ];
 

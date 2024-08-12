@@ -85,7 +85,7 @@
 }
 
 .h4 {
-  @apply text-[22px] font-semibold;
+  @apply text-[18px] md:text-[22px] xl:text-[22px] font-semibold;
 }
 
 .subtitle {
@@ -105,4 +105,20 @@
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   @apply bg-primary;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  @apply w-[8px] h-[8px];
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  @apply bg-none rounded-full;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  @apply bg-primary border-solid border-2 rounded-full;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -40,9 +40,11 @@ const ProjectCard = ({ project }) => {
           {project.category}
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
-        <p className="text-muted-foreground text-lg text-ellipsis">
-          {project.description}
-        </p>
+        <div className="scrollbar-custom h-28 sm:h-24 md:h-28 xl:h-32 overflow-y-scroll pr-1 ">
+          <p className="text-muted-foreground text-base sm:text-lg md:text-lg xl:text-lg text-ellipsis">
+            {project.description}
+          </p>
+        </div>
       </div>
     </Card>
   );

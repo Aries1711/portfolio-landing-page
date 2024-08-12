@@ -1,35 +1,34 @@
 "use client";
 
-import {
-  RiYoutubeFill,
-  RiLinkedinFill,
-  RiGithubFill,
-  RiFacebookBoxFill,
-  RiInstagramFill,
-} from "react-icons/ri";
-
 import Link from "next/link";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUpwork } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const icons = [
   {
-    path: "/",
-    name: <RiYoutubeFill />,
+    path: "https://www.upwork.com/freelancers/arisqisetyawan",
+    name: <FontAwesomeIcon icon={faUpwork} />,
   },
   {
-    path: "/",
-    name: <RiLinkedinFill />,
+    path: "https://www.linkedin.com/in/arisqi-setyawan/",
+    name: <FontAwesomeIcon icon={faLinkedin} />,
   },
   {
-    path: "/",
-    name: <RiGithubFill />,
+    path: "https://github.com/Aries1711",
+    name: <FontAwesomeIcon icon={faGithub} />,
   },
   {
-    path: "/",
-    name: <RiFacebookBoxFill />,
+    path: "https://www.instagram.com/arisqisetyawan/",
+    name: <FontAwesomeIcon icon={faInstagram} />,
   },
   {
-    path: "/",
-    name: <RiInstagramFill />,
+    path: "https://www.facebook.com/vladimir.ariesneski/",
+    name: <FontAwesomeIcon icon={faFacebook} />,
   },
 ];
 
