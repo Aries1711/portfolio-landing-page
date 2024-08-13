@@ -2,6 +2,11 @@ import DevImg from "../contents/DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsTrigger, TabsList } from "@/components/ui/tabs";
 
+import { getConfigPath } from "@/constant/ConfigPath";
+
+const config = getConfigPath();
+const imagePath = config.imagePath;
+
 import {
   User2,
   MailIcon,
@@ -99,22 +104,22 @@ const SkillData = [
     title: "Tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: `${imagePath}/about/vscode.svg`,
       },
       {
-        imgPath: "/about/android-studio.svg",
+        imgPath: `${imagePath}/about/android-studio.svg`,
       },
       {
-        imgPath: "/about/xcode.svg",
+        imgPath: `${imagePath}/about/xcode.svg`,
       },
       {
-        imgPath: "/about/github.svg",
+        imgPath: `${imagePath}/about/github.svg`,
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: `${imagePath}/about/figma.svg`,
       },
       {
-        imgPath: "/about/inkscape.svg",
+        imgPath: `${imagePath}/about/inkscape.svg`,
       },
     ],
   },
@@ -136,7 +141,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
               containerStyles="bg-hero_shape dark:bg-hero_shape_dark w-[510px] h-[462px] bg-no-repeat relative"
-              imgSrc="/hero/developer2.png"
+              imgSrc={`${imagePath}/hero/developer2.png`}
             />
           </div>
 

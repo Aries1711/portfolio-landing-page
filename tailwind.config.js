@@ -1,4 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
+const { getConfigPath } = require("./constant/ConfigPath.js");
+
+const configPath = getConfigPath();
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -78,19 +83,19 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        logo: "url(/logo.svg)",
-        logo_dark: "url(/logo_dark.svg)",
-        hero: "url(/hero/hero-bg.png)",
-        hero_shape: "url(/hero/shape-1.svg)",
-        hero_shape_dark: "url(/hero/shape-1-dark.svg)",
-        hero_shape2_light: "url(/hero/shape-2-light.svg)",
-        hero_shape2_dark: "url(/hero/shape-2-dark.svg)",
-        dots_light: "url(/about/dots-light.svg)",
-        dots_dark: "url(/about/dots-dark.svg)",
-        work_project_bg_light: "url(/work/project-bg-light.png)",
-        work_project_bg_dark: "url(/work/project-bg-dark.png)",
-        contact_illustration_light: "url(/contact/illustration-light.svg)",
-        contact_illustration_dark: "url(/contact/illustration-dark.svg)",
+        logo: `url(${configPath.imagePath}/logo.svg)`,
+        logo_dark: `url(${configPath.imagePath}/logo_dark.svg)`,
+        hero: `url(${configPath.imagePath}/hero/hero-bg.png)`,
+        hero_shape: `url(${configPath.imagePath}/hero/shape-1.svg)`,
+        hero_shape_dark: `url(${configPath.imagePath}/hero/shape-1-dark.svg)`,
+        hero_shape2_light: `url(${configPath.imagePath}/hero/shape-2-light.svg)`,
+        hero_shape2_dark: `url(${configPath.imagePath}/hero/shape-2-dark.svg)`,
+        dots_light: `url(${configPath.imagePath}/about/dots-light.svg)`,
+        dots_dark: `url(${configPath.imagePath}/about/dots-dark.svg)`,
+        work_project_bg_light: `url(${configPath.imagePath}/work/project-bg-light.png)`,
+        work_project_bg_dark: `url(${configPath.imagePath}/work/project-bg-dark.png)`,
+        contact_illustration_light: `url(${configPath.imagePath}/contact/illustration-light.svg)`,
+        contact_illustration_dark: `url(${configPath.imagePath}/contact/illustration-dark.svg)`,
       },
     },
   },

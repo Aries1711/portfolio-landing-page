@@ -2,6 +2,11 @@
 
 import Image from "next/image";
 
+import { getConfigPath } from "@/constant/ConfigPath";
+
+const config = getConfigPath();
+const imagePath = config.imagePath;
+
 import {
   Card,
   CardDescription,
@@ -21,21 +26,21 @@ import { Pagination } from "swiper/modules";
 
 const reviewsData = [
   {
-    avatar: "/reviews/avatar-1.png",
+    avatar: `${imagePath}/reviews/avatar-1.png`,
     name: "Frendhi Saido Danaro",
     job: "Head Director of Engineering on GGL",
     review:
       "I had the pleasure of working with Arisqi, who reported to me as a Flutter Engineer. He joined our team at a crucial time when we needed to rebuild our mobile app using Flutter. Arisqi successfully delivered the new Flutter-based mobile app, which turned out to be a significant upgrade from our previous version. The app is now much faster and more stable, addressing many of the issues we faced before. Furthermore, Arisqi's expertise has enabled us to deliver new features at a much faster pace. His dedication and technical skills have been invaluable to our team.",
   },
   {
-    avatar: "/reviews/avatar-2.png",
+    avatar: `${imagePath}/reviews/avatar-2.png`,
     name: "Rezki Pratama",
     job: "Mobile Developer Engineer",
     review:
       "Arisqi is the wonderful person to work with. He has a good knowledge about mobile development and amazing professional",
   },
   {
-    avatar: "/reviews/avatar-3.png",
+    avatar: `${imagePath}/reviews/avatar-3.png`,
     name: "Mutia Aisa Rahmi",
     job: "Product Manager",
     review:

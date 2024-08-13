@@ -2,11 +2,15 @@
 import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import ProjectCard from "@/components/contents/ProjectCard";
+import { getConfigPath } from "@/constant/ConfigPath";
+
+const config = getConfigPath();
+const imagePath = config.imagePath;
 
 // data
 const projectData = [
   {
-    image: "/work/work-6.png",
+    image: `${imagePath}/work/work-6.png`,
     category: "mobile apps",
     name: "GGL : Smart Fitness & Nutrition",
     description:
@@ -15,7 +19,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-1.png",
+    image: `${imagePath}/work/work-1.png`,
     category: "fullstack",
     name: "KitaCare Saas",
     description:
@@ -24,7 +28,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-7.png",
+    image: `${imagePath}/work/work-7.png`,
     category: "mobile apps",
     name: "KitaCare : Families Assisting (Pregnancy and Parenting)",
     description:
@@ -33,7 +37,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-2.png",
+    image: `${imagePath}/work/work-2.png`,
     category: "fullstack",
     name: "Aksiberbagi Website",
     description:
@@ -42,7 +46,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-8.png",
+    image: `${imagePath}/work/work-8.png`,
     category: "mobile apps",
     name: "Aksiberbagi : Charity & Donation",
     description:
@@ -51,7 +55,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-3.png",
+    image: `${imagePath}/work/work-3.png`,
     category: "fullstack",
     name: "Beramal Bersama Website",
     description:
@@ -60,7 +64,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-4.png",
+    image: `${imagePath}/work/work-4.png`,
     category: "fullstack",
     name: "RSRD Korlantas Website",
     description:
@@ -69,7 +73,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-5.png",
+    image: `${imagePath}/work/work-5.png`,
     category: "fullstack",
     name: "Seedfund fintech Crowdfunding Website",
     description:
@@ -78,7 +82,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/work-9.png",
+    image: `${imagePath}/work/work-9.png`,
     category: "open source",
     name: "Customization Tinode SDK",
     description:
