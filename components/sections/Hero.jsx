@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Download, Send } from "lucide-react";
+import { getConfigPath } from "@/constant/ConfigPath";
+
+const config = getConfigPath();
+const imagePath = config.imagePath;
 
 import {
   RiBriefcase4Fill,
@@ -45,7 +49,7 @@ const Hero = () => {
             />
             <DevImg
               containerStyles="bg-hero_shape dark:bg-hero_shape_dark w-[255px] h-[231px] bg-cover bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc={`${imagePath}/hero/developer.png`}
             />
           </div>
         </div>
@@ -113,7 +117,7 @@ const Hero = () => {
             />
             <DevImg
               containerStyles="bg-hero_shape dark:bg-hero_shape_dark w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc={`${imagePath}/hero/developer.png`}
             />
           </div>
         </div>
