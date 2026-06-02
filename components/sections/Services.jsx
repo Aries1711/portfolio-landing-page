@@ -1,4 +1,4 @@
-import { GanttChartSquare, Blocks, Gem } from "lucide-react";
+import { GanttChartSquare, Blocks, Gem, BrainCircuit } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -8,6 +8,12 @@ import {
 } from "@/components/ui/card";
 
 const servicesData = [
+  {
+    icon: <BrainCircuit size={72} strokeWidth={0.8} />,
+    title: "AI Fullstack Engineer",
+    description:
+      "Building intelligent fullstack applications powered by scalable AI-driven systems and automation.",
+  },
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Front-end Development",
@@ -37,7 +43,7 @@ const Services = () => {
         </h2>
       </div>
       {/* Grid Items */}
-      <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8 mx-4">
+      <div className="grid xl:grid-cols-4 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8 mx-4">
         {servicesData.map((item, index) => {
           return (
             <Card

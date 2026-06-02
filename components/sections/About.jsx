@@ -49,6 +49,11 @@ const qualificationData = [
     title: "Experiences",
     data: [
       {
+        company: "Coinresearch",
+        position: "Fullstack Developer",
+        years: "2024 - 2026",
+      },
+      {
         company: "GGL (Smart Fitness & Nutrition)",
         position: "Frontend Lead",
         years: "2023 - 2024",
@@ -64,13 +69,8 @@ const qualificationData = [
         years: "2022 - 2022",
       },
       {
-        company: "KodeKoding (Software house)",
-        position: "Fullstack Developer",
-        years: "2021 - 2022",
-      },
-      {
         company: "SeedFund Securities Crowdfunding",
-        position: "IT Supervisor",
+        position: "IT Supervisor & Fullstack Developer",
         years: "2020 - 2022",
       },
       {
@@ -242,7 +242,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -280,7 +280,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -308,7 +308,7 @@ const About = () => {
                                 <div className="font-medium">{name}</div>
                               </div>
                             );
-                          }
+                          },
                         )}
                       </div>
                     </div>
