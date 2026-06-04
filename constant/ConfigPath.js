@@ -8,5 +8,5 @@ const CONFIGPATH = {
 };
 
 export function getConfigPath() {
-  return CONFIGPATH["dev"]; // Fallback to 'dev' if env is not defined
+  return CONFIGPATH["prod"]; // Fallback to 'dev' if env is not defined
 }

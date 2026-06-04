@@ -24,6 +24,24 @@ const imagePath = config.imagePath;
 // data
 const projectData = [
   {
+    image: `${imagePath}/work/work-11.png`,
+    category: "fullstack",
+    name: "Stockresearch AI Insight Trading Tools (Stocks)",
+    description:
+      "Website platform for Stocks AI insight trading tools, frontend built by flutter (website, and Mobile Apps), backend built by Nest.js on docker, AI Services built using FastApi (Python).",
+    link: "https://www.stockresearch.ai/",
+    github: "/",
+  },
+  {
+    image: `${imagePath}/work/work-10.png`,
+    category: "fullstack",
+    name: "Coinresearch AI Insight Trading Tools (Cryptocurrency)",
+    description:
+      "Website platform for Cryptocurrency AI insight trading tools, frontend built by flutter (website, and Mobile Apps), backend built by Nest.js on docker, AI Services built using FastApi (Python).",
+    link: "https://www.coinresearch.ai/",
+    github: "/",
+  },
+  {
     image: `${imagePath}/work/work-6.png`,
     category: "mobile apps",
     name: "GGL : Smart Fitness & Nutrition",
@@ -102,10 +120,10 @@ const Work = () => {
     <section className="relative mb-12 xl:mb-48">
       <div className="container mx-auto">
         {/* text */}
-        <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+        <div className="max-w-[500px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[500px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-8">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            My latest portfolio and still growth's
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>
@@ -114,7 +132,7 @@ const Work = () => {
         {/** Sliders */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[540px]"
+            className="h-[640px]"
             slidesPerView={1}
             breakpoints={{
               640: {
