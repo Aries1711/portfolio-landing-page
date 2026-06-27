@@ -123,7 +123,7 @@ const Work = () => {
         <div className="max-w-[500px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[500px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-8">Latest Projects</h2>
           <p className="subtitle mb-8">
-            My latest portfolio and still growth's
+            A selection of production work I've shipped
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>

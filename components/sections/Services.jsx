@@ -12,7 +12,7 @@ const servicesData = [
     icon: <BrainCircuit size={72} strokeWidth={0.8} />,
     title: "AI Fullstack Engineer",
     description:
-      "Building intelligent fullstack applications powered by scalable AI-driven systems and automation.",
+      "LLM orchestration (Claude / OpenAI / MiniMax), RAG pipelines, MCP tooling, and AI-native product workflows in production.",
   },
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,

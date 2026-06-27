@@ -170,12 +170,13 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 8 Years
+                      8+ Years Building Production Software
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive mobile and website
-                      application with cutting-edge technology, delivering
-                      dynamic and engaging user experience.
+                      I build production AI-powered platforms, full-stack web
+                      applications, and cross-platform mobile apps. Sole product
+                      engineer behind CoinResearch.ai and StockResearch.ai — and
+                      currently open to senior remote roles.
                     </p>
 
                     {/*Icons*/}

@@ -37,14 +37,14 @@ const Hero = () => {
               containerStyle="absolute top-[50%] right-[0%] max-w-[120px] max-h-[40px]"
               typeView="mobile"
               icon={<RiTeamFill />}
-              endCountNum={63}
+              endCountNum={15}
               badgeText="Happy Client"
             />
             <Badge
               containerStyle="absolute top-[80%] max-w-[150px] max-h-[40px]"
               typeView="mobile"
               icon={<RiTodoFill />}
-              endCountNum={117}
+              endCountNum={30}
               badgeText="Finished Projects"
             />
             <DevImg
@@ -69,13 +69,9 @@ const Hero = () => {
               Hi, I'm Arisqi Setyawan
             </h2>
             <p className="subtitle max-w[490px] mx-auto xl:mx-0">
-              {/* With 8 years of experience, I’m not just focused on delivering
-              solutions but on pioneering innovative approaches that drive
-              long-term success. I'm eager to contribute to exciting and
-              impactful projects. */}
-              Comprehensive Solutions for Modern Development: Expertly crafting
-              user interfaces, building robust back-end systems, and delivering
-              integrated fullstack solutions to drive your project’s success.
+              Senior AI Product & Full-Stack Engineer. I take products from
+              greenfield to scale — most recently as the sole engineer behind
+              CoinResearch.ai and StockResearch.ai at Technology Labs.
             </p>
             {/*button*/}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
