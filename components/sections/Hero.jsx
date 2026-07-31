@@ -59,7 +59,7 @@ const Hero = () => {
             <div className="flex gap-x-4 text-sm uppercase font-semibold mb-4 mx-auto md:mx-auto xl:mx-0 text-primary dark:text-white tracking-[4px]">
               Fullstack Developer
               <img
-                src="https://raw.githubusercontent.com/aries1711/aries1711/main/redesign.gif"
+                src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/redesign.gif"
                 width="40px"
                 className="rounded-full"
               />

@@ -14,7 +14,7 @@ const Credits = () => {
       name: "Icon Gif",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/3d.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/3d.gif"
           width="40px"
           className="rounded-full"
         />
@@ -26,7 +26,7 @@ const Credits = () => {
       name: "Fonts",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/checklist.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/checklist.gif"
           width="40px"
           className="rounded-full"
         />
@@ -38,7 +38,7 @@ const Credits = () => {
       name: "Frontend",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/redesign.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/redesign.gif"
           width="40px"
           className="rounded-full"
         />
@@ -50,7 +50,7 @@ const Credits = () => {
       name: "UI & Theme Framework",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/responsive.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/responsive.gif"
           width="40px"
           className="rounded-full"
         />
@@ -62,7 +62,7 @@ const Credits = () => {
       name: "CSS Framework",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/software.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/software.gif"
           width="40px"
           className="rounded-full"
         />
@@ -74,7 +74,7 @@ const Credits = () => {
       name: "Animation",
       icon: (
         <img
-          src="https://raw.githubusercontent.com/aries1711/aries1711/main/digital-native.gif"
+          src="https://raw.githubusercontent.com/aries1711/aries1711/main/assets/digital-native.gif"
           width="40px"
           className="rounded-full"
         />
